@@ -126,8 +126,18 @@ footer p {
 
 .social-media {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
+.social-icon {
+    transition: transform 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
 .social-media a {
     color: white;
     margin: 0 10px;
